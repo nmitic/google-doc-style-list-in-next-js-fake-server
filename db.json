@@ -233,6 +233,1150 @@
         "id": "d1bf934c18634586962758fb98ff44a1",
         "text": "Please follow these instructions \"LINK\" to open a new account."
       }
+    },
+    {
+      "id": "34d7831e137a4016a55f98926800a643",
+      "name": "Greeting",
+      "description": "The visitor says hello.",
+      "trainingData": {
+        "expressionCount": 145,
+        "expressions": [
+          {
+            "id": "6399fd6989984c7b871c6301744b0af5",
+            "text": "Hello"
+          },
+          {
+            "id": "68bafebc2a2e4843a56a221c2ceb12ed",
+            "text": "Hi"
+          },
+          {
+            "id": "b2a3208dc801432992812638368e0668",
+            "text": "Good morning!"
+          }
+        ]
+      },
+      "reply": {
+        "id": "f35d7e0936a44102bac9cb96c81eec3b",
+        "text": "Hello :) How can I help you?"
+      }
+    },
+    {
+      "id": "9b86a5f9c0024cc0b4cb91762a0366de",
+      "name": "Farewell",
+      "description": "The visitor says goodbye.",
+      "trainingData": {
+        "expressionCount": 102,
+        "expressions": [
+          {
+            "id": "cde180a60b5a4c95a02618e77db7fb16",
+            "text": "Goodbye"
+          },
+          {
+            "id": "f5e8dc3de86f4528b5c663128acfe837",
+            "text": "See you later"
+          },
+          {
+            "id": "f0ab0f24d0174aeba3b488b2eeb4c2f2",
+            "text": "Bye"
+          }
+        ]
+      },
+      "reply": {
+        "id": "7bd84f29c6a748b18a869dc5e5983e1a",
+        "text": "Goodbye! Have a great day."
+      }
+    },
+    {
+      "id": "d5de9de8f24b4e7085d7a1b33f17ed43",
+      "name": "Question",
+      "description": "The visitor asks a question.",
+      "trainingData": {
+        "expressionCount": 78,
+        "expressions": [
+          {
+            "id": "03661f1868cc4a04b24c36a6d3c503f0",
+            "text": "Can you help me?"
+          },
+          {
+            "id": "0a7cfdfc5f3b40e5a5c22707742d3d35",
+            "text": "What time is it?"
+          },
+          {
+            "id": "89d40260339b46a4970a8e3cc2857f3b",
+            "text": "Do you know where the restroom is?"
+          }
+        ]
+      },
+      "reply": {
+        "id": "8240cf3a7d384a2d91cb67273b7f90b4",
+        "text": "Of course! What do you need assistance with?"
+      }
+    },
+    {
+      "id": "5c7b3b30fcce448a8101c9b002d1a1d1",
+      "name": "Gratitude",
+      "description": "The visitor expresses gratitude.",
+      "trainingData": {
+        "expressionCount": 64,
+        "expressions": [
+          {
+            "id": "07ed1d128a6f46b4bc1102893f2e2904",
+            "text": "Thank you"
+          },
+          {
+            "id": "f75f9d3f57ff4781b5d13f33e3fe3c76",
+            "text": "Thanks"
+          },
+          {
+            "id": "805146b858b84c6d8e5cf1b8f1165304",
+            "text": "I appreciate your help"
+          }
+        ]
+      },
+      "reply": {
+        "id": "f2346885d2f24d82a5c5c0a1da49c3de",
+        "text": "You're welcome! It's my pleasure to assist you."
+      }
+    },
+    {
+      "id": "cb9b3bb59b724891be7389e6d9277867",
+      "name": "Apology",
+      "description": "The visitor apologizes.",
+      "trainingData": {
+        "expressionCount": 56,
+        "expressions": [
+          {
+            "id": "40a2d55b5bdf44b7b28c8d38072d4620",
+            "text": "I'm sorry"
+          },
+          {
+            "id": "2ff21bc23f9d45ebaa9eb5b52044222c",
+            "text": "Sorry about that"
+          },
+          {
+            "id": "5e1b084579b04d8584a52e0714f5fde2",
+            "text": "My apologies"
+          }
+        ]
+      },
+      "reply": {
+        "id": "285eb818b2404a71b964914dadd73ff5",
+        "text": "No worries! Mistakes happen."
+      }
+    },
+    {
+      "id": "e2686885227f4a36b9b24294946bc2c5",
+      "name": "Assistance",
+      "description": "The visitor asks for assistance.",
+      "trainingData": {
+        "expressionCount": 83,
+        "expressions": [
+          {
+            "id": "fc5d7f6220c04f8a8f4468b76c7e9f39",
+            "text": "Can you help me with this?"
+          },
+          {
+            "id": "25f2a45adfc243b58d0dbf5de99ab92c",
+            "text": "I need assistance"
+          },
+          {
+            "id": "3b0419ed1d67477dbdd9b68d7ebce19f",
+            "text": "Could you please help me?"
+          }
+        ]
+      },
+      "reply": {
+        "id": "65c35454e2f24a53b0ec740a363081b6",
+        "text": "Sure thing! What do you need help with?"
+      }
+    },
+    {
+      "id": "0d7482ab0a8f41b987d9b8f7e2094628",
+      "name": "Confirmation",
+      "description": "The visitor confirms something.",
+      "trainingData": {
+        "expressionCount": 72,
+        "expressions": [
+          {
+            "id": "8e2c97815e3c4b5097dbd9d4eeb0515b",
+            "text": "Yes"
+          },
+          {
+            "id": "26f38a101a6549f8a13d70901808a6f2",
+            "text": "That's correct"
+          },
+          {
+            "id": "a77a71bc24284a5ebe3d9ad26ae99330",
+            "text": "Indeed"
+          }
+        ]
+      },
+      "reply": {
+        "id": "19f2422068964d97b3a356f30f2e6ae1",
+        "text": "Great! Is there anything else I can assist you with?"
+      }
+    },
+    {
+      "id": "01b44e4658544797b7c871a0fd8cc01c",
+      "name": "Feedback",
+      "description": "The visitor provides feedback.",
+      "trainingData": {
+        "expressionCount": 91,
+        "expressions": [
+          {
+            "id": "fb99faaf9a344d77bead3d071ed16fd2",
+            "text": "I liked it"
+          },
+          {
+            "id": "5eb8cb89ebeb4c0a812c49b06cc1b88d",
+            "text": "It was helpful"
+          },
+          {
+            "id": "7cdd39b70a454aeab2b03cf1a12115c1",
+            "text": "Could be better"
+          }
+        ]
+      },
+      "reply": {
+        "id": "83f6c67d07e0448fa49762c0b8ed9c6b",
+        "text": "Thank you for your feedback! We'll work on improving."
+      }
+    },
+    {
+      "id": "82ec5db8f7d64dd6881a98a33080a80d",
+      "name": "Request",
+      "description": "The visitor makes a request.",
+      "trainingData": {
+        "expressionCount": 69,
+        "expressions": [
+          {
+            "id": "e6ac4f7d3fd948df9f67b063e9a0de5f",
+            "text": "Could you do me a favor?"
+          },
+          {
+            "id": "f40a470dd28745a8892f95db1982e10f",
+            "text": "Please help me"
+          },
+          {
+            "id": "a1c13eeaf90145b28cf82dbd5c84c4c2",
+            "text": "I have a request"
+          }
+        ]
+      },
+      "reply": {
+        "id": "ee0e22866de84615be225c0203be19c8",
+        "text": "Of course! What would you like me to do?"
+      }
+    },
+    {
+      "id": "15be779d59834efb91c493e9ab33997a",
+      "name": "Acknowledgment",
+      "description": "The visitor acknowledges something.",
+      "trainingData": {
+        "expressionCount": 81,
+        "expressions": [
+          {
+            "id": "9b7b52760cf34569a0285ff97ad73d91",
+            "text": "Got it"
+          },
+          {
+            "id": "146e1f5a44fd4cc294dbad92d241bf09",
+            "text": "Understood"
+          },
+          {
+            "id": "e66b59ae20a741b2963c5b92d0a313a4",
+            "text": "I see"
+          }
+        ]
+      },
+      "reply": {
+        "id": "6fc8109ec55a46db94c08f29580f59e0",
+        "text": "Great! Let me know if you need further assistance."
+      }
+    },
+    {
+      "id": "dc077c8726834917a6761164dc73e5c3",
+      "name": "Introduction",
+      "description": "The visitor introduces themselves.",
+      "trainingData": {
+        "expressionCount": 93,
+        "expressions": [
+          {
+            "id": "e8bbf86ab3a24fbdaf3c0746e93960cb",
+            "text": "My name is John"
+          },
+          {
+            "id": "ce5420b36b2d46f7b14a9f6f666d0c9a",
+            "text": "Hello, I'm Sarah"
+          },
+          {
+            "id": "52498b53a7f7469e9b3bb7b1c43fb2d8",
+            "text": "Hi there, I'm Alex"
+          }
+        ]
+      },
+      "reply": {
+        "id": "76bb0d89bc0b4a3e9e97c6b1e7aa7e4e",
+        "text": "Nice to meet you, [Name]! How can I assist you today?"
+      }
+    },
+    {
+      "id": "d6c1f2a7a5384b4b97b535af2aa8c4f6",
+      "name": "Inquiry",
+      "description": "The visitor makes an inquiry.",
+      "trainingData": {
+        "expressionCount": 98,
+        "expressions": [
+          {
+            "id": "d7e23ab5d8924ff6b2d9272d9301c3b8",
+            "text": "Can you provide more information?"
+          },
+          {
+            "id": "d0214c6d25994a9d94cfb730c8907b94",
+            "text": "I have a question"
+          },
+          {
+            "id": "2e486309cada4d14b6b4cc6faa793bfa",
+            "text": "Could you clarify?"
+          }
+        ]
+      },
+      "reply": {
+        "id": "c97c4e9d857345e4bc28b9e1e0c36a38",
+        "text": "Certainly! What would you like to know more about?"
+      }
+    },
+    {
+      "id": "f54f7ebe0ac1446b9e7ecbcb1a2d3c07",
+      "name": "Complaint",
+      "description": "The visitor lodges a complaint.",
+      "trainingData": {
+        "expressionCount": 77,
+        "expressions": [
+          {
+            "id": "978b4399db36427f92d6bc26cde27405",
+            "text": "I'm not satisfied"
+          },
+          {
+            "id": "7bb55bda82a0420c99be2bb0197f37aa",
+            "text": "This is unacceptable"
+          },
+          {
+            "id": "bd119168a6d64cf2a70af7f20ab43cf8",
+            "text": "I want to complain"
+          }
+        ]
+      },
+      "reply": {
+        "id": "ca46c6b25a4d41d3b1e8486ac501eb33",
+        "text": "I apologize for the inconvenience. Let me address your concerns."
+      }
+    },
+    {
+      "id": "c7f3e04a0c32447e8f700d0d6ddc98b3",
+      "name": "Assurance",
+      "description": "The visitor seeks assurance.",
+      "trainingData": {
+        "expressionCount": 81,
+        "expressions": [
+          {
+            "id": "9ad924a4561b45e1b289bfe16b55c1a8",
+            "text": "Are you sure?"
+          },
+          {
+            "id": "d0ffeb3d82084455baf82decd19d1f5d",
+            "text": "Can I trust you?"
+          },
+          {
+            "id": "05f9bb8a2db44d398df4a1a97c7a08fd",
+            "text": "Will this work?"
+          }
+        ]
+      },
+      "reply": {
+        "id": "a6bfb81010af46c5b66700a1fbba1f47",
+        "text": "Absolutely! You can count on me."
+      }
+    },
+    {
+      "id": "18c2649b2b0742678b68c7e87298f150",
+      "name": "Confirmation",
+      "description": "The visitor confirms something.",
+      "trainingData": {
+        "expressionCount": 89,
+        "expressions": [
+          {
+            "id": "7a19e681fbb14a39bf7573dd49915652",
+            "text": "Yes, that's correct"
+          },
+          {
+            "id": "f895d17a91f849fcb98cf3c1ed2eb6f2",
+            "text": "That's right"
+          },
+          {
+            "id": "8f11d26c99bb4b7eb3a50778d860e568",
+            "text": "Exactly"
+          }
+        ]
+      },
+      "reply": {
+        "id": "306edac1e59d41d3b9a76d518bdc8b7a",
+        "text": "Great! Let me know if there's anything else I can help you with."
+      }
+    },
+    {
+      "id": "61b28a7f1c5142048fb28cf320b6b754",
+      "name": "Request",
+      "description": "The visitor makes a request.",
+      "trainingData": {
+        "expressionCount": 72,
+        "expressions": [
+          {
+            "id": "4c4a742f345f441f975d7c88252b04ee",
+            "text": "Could you please do this for me?"
+          },
+          {
+            "id": "d16e12c75c004fe1b9e07f2d9a64e4fd",
+            "text": "I need your assistance with something"
+          },
+          {
+            "id": "5f9fbd7b2d8940e09e44078a433af74f",
+            "text": "Can you help me out?"
+          }
+        ]
+      },
+      "reply": {
+        "id": "3c236a5b5c124f3f9c56ad750b05df6b",
+        "text": "Sure thing! What specifically do you need help with?"
+      }
+    },
+    {
+      "id": "38e6972729cf409199b4f27a74cb9d89",
+      "name": "Acknowledgment",
+      "description": "The visitor acknowledges something.",
+      "trainingData": {
+        "expressionCount": 67,
+        "expressions": [
+          {
+            "id": "4ee34afef28a472c8dcd4e5ecfc59a10",
+            "text": "Gotcha"
+          },
+          {
+            "id": "25474f8f53594a79b7d48d500cdd1fe7",
+            "text": "Received"
+          },
+          {
+            "id": "ec6a3b059b484ff29e034037271a4b1e",
+            "text": "Acknowledged"
+          }
+        ]
+      },
+      "reply": {
+        "id": "304fb16c4d2e4d65b2ad5f0af2a43a90",
+        "text": "Understood. Let me know if you need further assistance."
+      }
+    },
+    {
+      "id": "a54a6a9fb88240c8938de396dbde3317",
+      "name": "Expression",
+      "description": "The visitor expresses something.",
+      "trainingData": {
+        "expressionCount": 81,
+        "expressions": [
+          {
+            "id": "567234f2cc2444d1a4f588ec75d7476c",
+            "text": "I feel happy"
+          },
+          {
+            "id": "ef8df913f68e4e1aa09d6e42219c0a6d",
+            "text": "I am excited"
+          },
+          {
+            "id": "b2bca912cd0840a2a06a92f94e2a7324",
+            "text": "I am frustrated"
+          }
+        ]
+      },
+      "reply": {
+        "id": "27fc1de501914ce19d5d6f867bb2d7cd",
+        "text": "I understand how you feel."
+      }
+    },
+    {
+      "id": "364a76a4096144b0897c0ccf5364b68e",
+      "name": "Confirmation",
+      "description": "The visitor confirms something.",
+      "trainingData": {
+        "expressionCount": 75,
+        "expressions": [
+          {
+            "id": "1d7f6e34095a4e73b462794fe8a6d009",
+            "text": "Yes, that's right"
+          },
+          {
+            "id": "7f1a62d1f4a74c8b9b9dd5e8d93c258b",
+            "text": "Indeed"
+          },
+          {
+            "id": "8f11d26c99bb4b7eb3a50778d860e568",
+            "text": "Exactly"
+          }
+        ]
+      },
+      "reply": {
+        "id": "306edac1e59d41d3b9a76d518bdc8b7a",
+        "text": "Great! Let me know if there's anything else I can help you with."
+      }
+    },
+    {
+      "id": "c0f334f84d8a4aa893d47033f2322dd3",
+      "name": "Request",
+      "description": "The visitor makes a request.",
+      "trainingData": {
+        "expressionCount": 64,
+        "expressions": [
+          {
+            "id": "86c3b93435a44ff59c0b609e7c37c8f8",
+            "text": "Could you do me a favor?"
+          },
+          {
+            "id": "17a92cb84a1f48d6b0b7e4f5ad0a8d30",
+            "text": "Please help me with this"
+          },
+          {
+            "id": "7c3be5c1e8b64d7d83f7d6ee0e1910d1",
+            "text": "I have a request"
+          }
+        ]
+      },
+      "reply": {
+        "id": "10bfe0a905bd479a937b7f37b9cd6890",
+        "text": "Of course! What do you need assistance with?"
+      }
+    },
+    {
+      "id": "4b72bfa4d7814418a33361fc4b6a40a2",
+      "name": "Feedback",
+      "description": "The visitor provides feedback.",
+      "trainingData": {
+        "expressionCount": 69,
+        "expressions": [
+          {
+            "id": "3c0c1239e2a647ebab39fcd2cfd8f28d",
+            "text": "I found it useful"
+          },
+          {
+            "id": "cda67a042f0947ff8ebd86c6a1c32429",
+            "text": "It was great"
+          },
+          {
+            "id": "d8c1756054504a86a33dcad5f88fd91e",
+            "text": "Needs improvement"
+          }
+        ]
+      },
+      "reply": {
+        "id": "8b6d3c7466d443209ac3dcd9f5b158f9",
+        "text": "Thank you for your feedback! We'll take it into consideration."
+      }
+    },
+    {
+      "id": "bfef05e50c6e4c30b09d09f0e83d9e27",
+      "name": "Suggestion",
+      "description": "The visitor makes a suggestion.",
+      "trainingData": {
+        "expressionCount": 84,
+        "expressions": [
+          {
+            "id": "6b7e3d215cfb45d6b10d6ab1076792b2",
+            "text": "You should consider..."
+          },
+          {
+            "id": "f5253ecdb4b34e0e9ba0adbc4fece6a0",
+            "text": "Here's an idea..."
+          },
+          {
+            "id": "c3dfaeecae1e441d84abdc40c79760b9",
+            "text": "What if we..."
+          }
+        ]
+      },
+      "reply": {
+        "id": "96c36c27f3e94cf7b53a6f14d97f3032",
+        "text": "Thank you for your suggestion! We'll take it into consideration."
+      }
+    },
+    {
+      "id": "a6485ac9f4434b32be994309d7c6a288",
+      "name": "Praise",
+      "description": "The visitor praises.",
+      "trainingData": {
+        "expressionCount": 79,
+        "expressions": [
+          {
+            "id": "2d201a1fc6c4448b8f18ab9cc13c12c1",
+            "text": "Great job!"
+          },
+          {
+            "id": "e3f8906b85534ad3ab8bdf7c77448d05",
+            "text": "Well done!"
+          },
+          {
+            "id": "b16e518f4c7f490c9d60a016e4d0a3b7",
+            "text": "Excellent!"
+          }
+        ]
+      },
+      "reply": {
+        "id": "d04b83b8b1e04167b662a4bc9f63496b",
+        "text": "Thank you for your kind words! We strive to provide the best service."
+      }
+    },
+    {
+      "id": "ad3fd8b820e14c25a066e734aeeefdbb",
+      "name": "Apology",
+      "description": "The visitor apologizes.",
+      "trainingData": {
+        "expressionCount": 73,
+        "expressions": [
+          {
+            "id": "f4a3168e0b73425f8998bde791308b46",
+            "text": "I'm sorry for the inconvenience"
+          },
+          {
+            "id": "81a785c0771e476398571da4dc6dd5fc",
+            "text": "Sorry about that"
+          },
+          {
+            "id": "c32c962051854fa9b51fca847c5d4e19",
+            "text": "My apologies for the confusion"
+          }
+        ]
+      },
+      "reply": {
+        "id": "3d49ff11fd0f420bafabfbdf543ec94d",
+        "text": "No problem! Let me know if there's anything else I can assist you with."
+      }
+    },
+    {
+      "id": "0943e12c2fbd4f95bcb7a4a9b2cc54ff",
+      "name": "Acknowledgment",
+      "description": "The visitor acknowledges something.",
+      "trainingData": {
+        "expressionCount": 68,
+        "expressions": [
+          {
+            "id": "8756cb4f124e4939a17f49a33c5bbf81",
+            "text": "Noted"
+          },
+          {
+            "id": "a6bb688f48874a8cb0e2d14a9fd86069",
+            "text": "Got it, thanks"
+          },
+          {
+            "id": "719d91b9bc3b496c9aacee1a8b28d8c2",
+            "text": "Acknowledged"
+          }
+        ]
+      },
+      "reply": {
+        "id": "88e013c1b1d547ccaa5b5877ac40d8e8",
+        "text": "Understood. Let me know if there's anything else I can do for you."
+      }
+    },
+    {
+      "id": "de4c9a50d9e447c6a7da8f7dc4257c25",
+      "name": "Inquiry",
+      "description": "The visitor makes an inquiry.",
+      "trainingData": {
+        "expressionCount": 77,
+        "expressions": [
+          {
+            "id": "ff3641e242ae47d3a0b08a89cc73165e",
+            "text": "I have a question"
+          },
+          {
+            "id": "89cf5b18c45c42a3bc6d935cbf52f3e8",
+            "text": "Can you help me with this?"
+          },
+          {
+            "id": "74950b99b0c84ebd80ee3ac008c2c1ff",
+            "text": "Could you provide more information?"
+          }
+        ]
+      },
+      "reply": {
+        "id": "cd234c5ad89e49feac5773d3e05b535e",
+        "text": "Of course! What do you need assistance with?"
+      }
+    },
+    {
+      "id": "930da14d7fd64cc399a34bc4b10961f7",
+      "name": "Compliment",
+      "description": "The visitor gives a compliment.",
+      "trainingData": {
+        "expressionCount": 85,
+        "expressions": [
+          {
+            "id": "2d201a1fc6c4448b8f18ab9cc13c12c1",
+            "text": "Great job!"
+          },
+          {
+            "id": "e3f8906b85534ad3ab8bdf7c77448d05",
+            "text": "Well done!"
+          },
+          {
+            "id": "b16e518f4c7f490c9d60a016e4d0a3b7",
+            "text": "Excellent!"
+          }
+        ]
+      },
+      "reply": {
+        "id": "d04b83b8b1e04167b662a4bc9f63496b",
+        "text": "Thank you for your kind words! We strive to provide the best service."
+      }
+    },
+    {
+      "id": "4b26fc14f42f4e169c8013892c1086fd",
+      "name": "Assistance",
+      "description": "The visitor asks for assistance.",
+      "trainingData": {
+        "expressionCount": 71,
+        "expressions": [
+          {
+            "id": "6e04a86158b0480190b0cd5780ee3036",
+            "text": "Can you assist me with this?"
+          },
+          {
+            "id": "6861242b20a14e74bf4b2c1b77d9b9ab",
+            "text": "I need help"
+          },
+          {
+            "id": "2b23f31ab71e4d749d7db65c508ec489",
+            "text": "Could you please help me?"
+          }
+        ]
+      },
+      "reply": {
+        "id": "d11f5f5c5d3a414b9fbefb5d7cb083bc",
+        "text": "Absolutely! What specifically do you need assistance with?"
+      }
+    },
+    {
+      "id": "139a715b84e140d9a49f260e1d4e01a5",
+      "name": "Complaint",
+      "description": "The visitor lodges a complaint.",
+      "trainingData": {
+        "expressionCount": 74,
+        "expressions": [
+          {
+            "id": "66a96e3996324842b20e0c93070d60fc",
+            "text": "I'm not satisfied with..."
+          },
+          {
+            "id": "91af6e786d68496fb96c0bb8e50a3f49",
+            "text": "This is unacceptable"
+          },
+          {
+            "id": "ed6dc67a65cd49d2a72c8a7f3b1340c5",
+            "text": "I want to complain about..."
+          }
+        ]
+      },
+      "reply": {
+        "id": "bb16a027d8634ee4b5eb32b84d46fb49",
+        "text": "I apologize for the inconvenience. Let me address your concerns."
+      }
+    },
+    {
+      "id": "47d19cc26b8c437ca3bb01e1de75c3b4",
+      "name": "Acknowledgment",
+      "description": "The visitor acknowledges something.",
+      "trainingData": {
+        "expressionCount": 66,
+        "expressions": [
+          {
+            "id": "ac81a694c0b245aeb8d7b1c8c7e97261",
+            "text": "Understood"
+          },
+          {
+            "id": "27b06c99e1a04feab09b78c54bb4a647",
+            "text": "Got it"
+          },
+          {
+            "id": "d4c7b759e68f44bc9c858c35da54e0bb",
+            "text": "Received"
+          }
+        ]
+      },
+      "reply": {
+        "id": "d4d632f86bb448b48b3a932a6325278a",
+        "text": "Great! Let me know if you need further assistance."
+      }
+    },
+    {
+      "id": "b88d135a20b84c80bc861ac4d77d53f3",
+      "name": "Gratitude",
+      "description": "The visitor expresses gratitude.",
+      "trainingData": {
+        "expressionCount": 63,
+        "expressions": [
+          {
+            "id": "d2f3940d6eb54801a0bc234020c1443e",
+            "text": "Thank you so much"
+          },
+          {
+            "id": "7d9254bb71bf47ceaf3c1926a0e6e0f9",
+            "text": "Thanks a lot"
+          },
+          {
+            "id": "87e8d4cc335d4f0a91646b10f2432b5a",
+            "text": "I really appreciate it"
+          }
+        ]
+      },
+      "reply": {
+        "id": "2a9c03aa225c42a1be16454d6a6f4ff5",
+        "text": "You're welcome! It's my pleasure to assist you."
+      }
+    },
+    {
+      "id": "1dbef7b7c2e64c8e8c4651c2e2b4d2d1",
+      "name": "Inquiry",
+      "description": "The visitor makes an inquiry.",
+      "trainingData": {
+        "expressionCount": 69,
+        "expressions": [
+          {
+            "id": "72e794e7d3cf4aeb84e97ad493f4d7bb",
+            "text": "I have a question"
+          },
+          {
+            "id": "666d6604e0f741af8cc59d8e8f488dc4",
+            "text": "Can you help me with this?"
+          },
+          {
+            "id": "c779bc78da064f5f8ff8b6cc8f69cb0a",
+            "text": "Could you provide more information?"
+          }
+        ]
+      },
+      "reply": {
+        "id": "bb7c8a394c6b493ebf43d3b9e732a154",
+        "text": "Of course! What specifically do you need assistance with?"
+      }
+    },
+    {
+      "id": "bb3cf8e4df6f42b3ad2f13828debc4c0",
+      "name": "Feedback",
+      "description": "The visitor provides feedback.",
+      "trainingData": {
+        "expressionCount": 66,
+        "expressions": [
+          {
+            "id": "2ef75ecff9034b6eb2ff5f60152d6947",
+            "text": "I found it useful"
+          },
+          {
+            "id": "1dd5a2b1977d46cbbe324a06b75ec674",
+            "text": "It was great"
+          },
+          {
+            "id": "a5b5477bdf254a4fa43977ae5d7eb022",
+            "text": "Needs improvement"
+          }
+        ]
+      },
+      "reply": {
+        "id": "0e97270d6b1e4654a7a2c86c96f5a5a5",
+        "text": "Thank you for your feedback! We'll take it into consideration."
+      }
+    },
+    {
+      "id": "6e55a5e454864124bb5f84ccbfcb80df",
+      "name": "Query",
+      "description": "The visitor asks a question.",
+      "trainingData": {
+        "expressionCount": 63,
+        "expressions": [
+          {
+            "id": "ab89f854e3c74cfeb0d8354393a0bc51",
+            "text": "Can you clarify something for me?"
+          },
+          {
+            "id": "96f4f878f05745c0bc69b46d3efce818",
+            "text": "I'm not sure about something"
+          },
+          {
+            "id": "62e140f8e8d14a52aef39e19f17d9f6a",
+            "text": "Could you explain this further?"
+          }
+        ]
+      },
+      "reply": {
+        "id": "4bfec5025eae4c49b94720ab68bb6e1e",
+        "text": "Certainly! What specifically would you like to know?"
+      }
+    },
+    {
+      "id": "2e4892419d0345d2a00a9a2791b9b57f",
+      "name": "Praise",
+      "description": "The visitor expresses praise.",
+      "trainingData": {
+        "expressionCount": 76,
+        "expressions": [
+          {
+            "id": "a4395f8d51284b1e853fdb537c3cf4d8",
+            "text": "Excellent service!"
+          },
+          {
+            "id": "3469e4d7d8184a71b18c6c0cb8491ef6",
+            "text": "I'm very impressed"
+          },
+          {
+            "id": "26b1e7e86943451a8b0f200e82020fa9",
+            "text": "Outstanding!"
+          }
+        ]
+      },
+      "reply": {
+        "id": "0c00e8286b5b4c5ebd8325a2ff0576da",
+        "text": "Thank you for your kind words! We strive to maintain high standards."
+      }
+    },
+    {
+      "id": "4f51a32c320840369c8e86c5d3d218e3",
+      "name": "Assurance",
+      "description": "The visitor seeks assurance.",
+      "trainingData": {
+        "expressionCount": 79,
+        "expressions": [
+          {
+            "id": "0e71b86cb4864c62914f5dfc64ddc6b7",
+            "text": "Are you sure about this?"
+          },
+          {
+            "id": "e3e434cf256a4c94a37e3ef9064a33d7",
+            "text": "Can I trust your expertise?"
+          },
+          {
+            "id": "ebc24de4b33a4c88a86aa258d07d27ee",
+            "text": "Can you guarantee this?"
+          }
+        ]
+      },
+      "reply": {
+        "id": "2e58a0db56aa4f73972a0d3ed5c3cc59",
+        "text": "Absolutely! You have my assurance."
+      }
+    },
+    {
+      "id": "0f07f45744054b3b9fb9eb2e688b9a3e",
+      "name": "Confirmation",
+      "description": "The visitor confirms something.",
+      "trainingData": {
+        "expressionCount": 71,
+        "expressions": [
+          {
+            "id": "e3aa4053e7584ff3a7aa1b431531a9aa",
+            "text": "Yes, that's correct"
+          },
+          {
+            "id": "6fb3038b2e774f1ba5dd4a2e4da63eab",
+            "text": "That's right"
+          },
+          {
+            "id": "224944c9e86147c99e5174f28ac1c20c",
+            "text": "Exactly"
+          }
+        ]
+      },
+      "reply": {
+        "id": "5fb65f6a68ae4f16b0ed271c2fe86807",
+        "text": "Great! Let me know if there's anything else I can assist you with."
+      }
+    },
+    {
+      "id": "37434c8d44bc45a1b1b1431430c15e8e",
+      "name": "Request",
+      "description": "The visitor makes a request.",
+      "trainingData": {
+        "expressionCount": 65,
+        "expressions": [
+          {
+            "id": "7e2cbe47c58a4d58a6e87d54e4d96ad0",
+            "text": "Could you do me a favor?"
+          },
+          {
+            "id": "fae547c7228e499b8143e5e0f2e715a3",
+            "text": "Please help me with this"
+          },
+          {
+            "id": "0236f5c23e8a490fb4f201cc7262fcf5",
+            "text": "I have a request"
+          }
+        ]
+      },
+      "reply": {
+        "id": "9b214f0fcd664d0cbec4be3ad1118d62",
+        "text": "Of course! What do you need assistance with?"
+      }
+    },
+    {
+      "id": "12cd10e86e6d4787ba97e1dfc89a55b8",
+      "name": "Acknowledgment",
+      "description": "The visitor acknowledges something.",
+      "trainingData": {
+        "expressionCount": 60,
+        "expressions": [
+          {
+            "id": "b7cb2e7e8dab442b917e96bc00ec47d1",
+            "text": "Got it"
+          },
+          {
+            "id": "c0625a7566244c18878c72be999de3ac",
+            "text": "Understood"
+          },
+          {
+            "id": "bae5f23ed6254cb9836de5ee74d882b8",
+            "text": "Received"
+          }
+        ]
+      },
+      "reply": {
+        "id": "b497736e064541a9b46e3e3d8e4b44f9",
+        "text": "Noted. Let me know if you need further assistance."
+      }
+    },
+    {
+      "id": "dca7b9d352454ee6a2b4d95f96dfe551",
+      "name": "Expression",
+      "description": "The visitor expresses something.",
+      "trainingData": {
+        "expressionCount": 64,
+        "expressions": [
+          {
+            "id": "a43f116c992a42d09d03c7ac297e5a61",
+            "text": "I feel happy"
+          },
+          {
+            "id": "b13a39ed482045138693b40c31ad83e5",
+            "text": "I am excited"
+          },
+          {
+            "id": "36597c04cf784ef0b31228e98d0752b1",
+            "text": "I am frustrated"
+          }
+        ]
+      },
+      "reply": {
+        "id": "68fc8a9f6f0f4e5c9d9c981b80035dc9",
+        "text": "I understand how you feel."
+      }
+    },
+    {
+      "id": "1ef47a82618e4d64b9bc5da9e2e4aa85",
+      "name": "Confirmation",
+      "description": "The visitor confirms something.",
+      "trainingData": {
+        "expressionCount": 68,
+        "expressions": [
+          {
+            "id": "e8487a58565d438dbe584041e8d9d5b4",
+            "text": "Yes, that's right"
+          },
+          {
+            "id": "b42351e91e0c44748c5045f4a2fecc4b",
+            "text": "Indeed"
+          },
+          {
+            "id": "224944c9e86147c99e5174f28ac1c20c",
+            "text": "Exactly"
+          }
+        ]
+      },
+      "reply": {
+        "id": "5fb65f6a68ae4f16b0ed271c2fe86807",
+        "text": "Great! Let me know if there's anything else I can assist you with."
+      }
+    },
+    {
+      "id": "73bb1f65a3e746bdaa844a152f1404a5",
+      "name": "Request",
+      "description": "The visitor makes a request.",
+      "trainingData": {
+        "expressionCount": 64,
+        "expressions": [
+          {
+            "id": "7e2cbe47c58a4d58a6e87d54e4d96ad0",
+            "text": "Could you do me a favor?"
+          },
+          {
+            "id": "fae547c7228e499b8143e5e0f2e715a3",
+            "text": "Please help me with this"
+          },
+          {
+            "id": "0236f5c23e8a490fb4f201cc7262fcf5",
+            "text": "I have a request"
+          }
+        ]
+      },
+      "reply": {
+        "id": "9b214f0fcd664d0cbec4be3ad1118d62",
+        "text": "Of course! What do you need assistance with?"
+      }
+    },
+    {
+      "id": "1dbef7b7c2e64c8e8c4651c2e2b4d2d1",
+      "name": "Inquiry",
+      "description": "The visitor makes an inquiry.",
+      "trainingData": {
+        "expressionCount": 69,
+        "expressions": [
+          {
+            "id": "72e794e7d3cf4aeb84e97ad493f4d7bb",
+            "text": "I have a question"
+          },
+          {
+            "id": "666d6604e0f741af8cc59d8e8f488dc4",
+            "text": "Can you help me with this?"
+          },
+          {
+            "id": "c779bc78da064f5f8ff8b6cc8f69cb0a",
+            "text": "Could you provide more information?"
+          }
+        ]
+      },
+      "reply": {
+        "id": "bb7c8a394c6b493ebf43d3b9e732a154",
+        "text": "Of course! What specifically do you need assistance with?"
+      }
+    },
+    {
+      "id": "bb3cf8e4df6f42b3ad2f13828debc4c0",
+      "name": "Feedback",
+      "description": "The visitor provides feedback.",
+      "trainingData": {
+        "expressionCount": 66,
+        "expressions": [
+          {
+            "id": "2ef75ecff9034b6eb2ff5f60152d6947",
+            "text": "I found it useful"
+          },
+          {
+            "id": "1dd5a2b1977d46cbbe324a06b75ec674",
+            "text": "It was great"
+          },
+          {
+            "id": "a5b5477bdf254a4fa43977ae5d7eb022",
+            "text": "Needs improvement"
+          }
+        ]
+      },
+      "reply": {
+        "id": "0e97270d6b1e4654a7a2c86c96f5a5a5",
+        "text": "Thank you for your feedback! We'll take it into consideration."
+      }
     }
   ]
 }
