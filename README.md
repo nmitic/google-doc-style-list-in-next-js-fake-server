@@ -11,6 +11,7 @@ pnpm rnu start
 
 ## Please note
 - Make sure that no process is running on the port :4000
+- It should run on latest version of mode but I was using v18.17.0
 
 ## Why JSON server?
 - I needed something quick to setup and serve data with little hustle in order to complete the project features
