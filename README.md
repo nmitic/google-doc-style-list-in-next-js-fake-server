@@ -10,7 +10,7 @@ Run the following commands (npm, yarn should also work but I am using pnpm)
 
 ```bash
 pnpm i
-pnpm rnu start
+pnpm run start
 ```
 
 ## Why JSON server?
