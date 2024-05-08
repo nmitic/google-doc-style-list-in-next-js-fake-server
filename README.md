@@ -3,7 +3,7 @@ This is a [JSON server mock api](https://github.com/typicode/json-server)
 ## Getting Started
 ### Please note
 - Make sure that no process is running on the port :4000
-- It should run on latest version of NodeJS but I was using v18.17.0
+- It should run on latest versions of NodeJS but I was using v18.17.0
 Install dependencies and run the development server:
 
 Run the following commands (npm, yarn should also work but I am using pnpm)
